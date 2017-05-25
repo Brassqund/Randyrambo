@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StorytellerDefs>
+	<StorytellerDef>
+		<defName>RandyRambo</defName>
+    <label>Randy Rambo</label>
+		<description>More big events, less little one..</description>
+    <portraitLarge>randyrambo</portraitLarge>
+    <portraitTiny>randyrambot</portraitTiny>
+    <listOrder>50</listOrder>
+    <desiredPopulationMin>4</desiredPopulationMin>
+    <desiredPopulationMax>13</desiredPopulationMax>
+    <desiredPopulationCritical>50</desiredPopulationCritical>
+    <comps>
+      <li Class="StorytellerCompProperties_RandomMain">
+        <minDaysPassed>1</minDaysPassed>
+        <incidentMtb>0.87</incidentMtb>
+        <maxThreatBigIntervalDays>9</maxThreatBigIntervalDays>
+        <categoryWeights>
+          <Misc>1.9</Misc>
+          <OrbitalVisitor>1</OrbitalVisitor>
+          <AllyArrival>0.9</AllyArrival>
+          <ShipChunkDrop>0.5</ShipChunkDrop>
+          <ThreatSmall>0.9</ThreatSmall>
+          <ThreatBig>3.5</ThreatBig>
+        </categoryWeights>
+      </li>
+      <li Class="StorytellerCompProperties_Disease">
+        <minDaysPassed>0</minDaysPassed>
+      </li>
+      <li Class="StorytellerCompProperties_JourneyOffer"/>
+    </comps>
+  </StorytellerDef>
+</StorytellerDefs>
